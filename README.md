@@ -1,4 +1,4 @@
-# Currency Exchanger
+# PierresBakery
 
 by Sean Julius
 
