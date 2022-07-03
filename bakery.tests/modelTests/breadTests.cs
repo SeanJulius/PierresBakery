@@ -22,4 +22,24 @@ using Bakery.Models;
       {
         Assert.AreEqual(20, Bread.BreadCost(5));
       }
+
+      [TestMethod]
+      public void SetObject_SetObject_Bread()
+      {
+        int quant = 0;
+            int cost = 0;
+            Bread newBread = new Bread(quant, cost);
+
+            int updatedQuant = 2;
+            newBread.Quant = updatedQuant;
+            int finalQuant = newBread.Quant;
+            int updatedCost = 2;
+            newBread.Cost = updatedCost;
+            int finalCost = newBread.Cost;
+
+            
+            Assert.AreEqual(updatedQuant, finalQuant);
+            Assert.AreEqual(updatedCost, finalCost);
+      }
   }
+  

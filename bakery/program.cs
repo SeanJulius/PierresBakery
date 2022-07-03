@@ -25,7 +25,7 @@ namespace PierresBakery
 
             }else if( answer == "No" || answer == "no" || answer == "NO")
             {
-            Console.WriteLine("THave a nice day and come back again!"); 
+            Console.WriteLine("Have a nice day and come back again!"); 
             }
 
         }  
