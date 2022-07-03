@@ -5,15 +5,21 @@ using Bakery.Models;
   public class BreadTests
   {
     
-        [TestMethod]
+  [TestMethod]
     public void BreadCost_ShowCostOfOneLoaf_1()
     {
       Assert.AreEqual(5, Bread.BreadCost(1));
     }
 
     [TestMethod]
-      public void BreadPrice_ShowPriceOfThreeLoavesOfBread_3()
+      public void BreadCost_ShowCostOfThreeLoavesOfBread_3()
       {
-        Assert.AreEqual(18, Bread.BreadPrice(3));
+        Assert.AreEqual(10, Bread.BreadCost(3));
+      }
+      
+      [TestMethod]
+      public void BreadCost_ShowCostOfFiveLoavesOfBread_5()
+      {
+        Assert.AreEqual(20, Bread.BreadCost(5));
       }
   }
