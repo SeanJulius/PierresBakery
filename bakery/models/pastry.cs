@@ -24,6 +24,5 @@ namespace Bakery.Models
             return total;
         }
 
-
     }
 } 
